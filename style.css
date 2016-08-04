@@ -1,0 +1,372 @@
+/*!
+	Theme Name: KF
+	Theme URI: http://localhost/wordpress/
+	Description: Free responsive portfolio/blog theme
+	Author: Bootstrap
+	Author URI: 
+	Version: 1.0
+    License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) 
+	License URI: http:
+
+*/
+@font-face {
+	font-family: 'SFCompactText-Medium';
+	src: url(fonts/SFCompactText-Medium.ttf) format('truetype');
+	
+	font-family: 'SFCompactText-Heavy';
+	src: url(fonts/SFCompactText-Heavy.ttf) format('truetype');
+
+	font-family: 'OPEN-SANSBOLD';
+	src: url(fonts/OPEN-SANSBOLD.TTF) format('truetype');
+
+	font-family: 'BEBASNEUEBOOK';
+	src: url(fonts/BEBASNEUEBOOK.OTF) format('opentype');
+	
+	font-weight: normal;
+  	font-style: normal;
+}
+
+header{
+	position:fixed;
+	width: 100%;
+	height: 85px;
+	left: 0;
+	top: 0;
+	background-color: rgba(0,58,112,0.7);
+	z-index: 99999;
+
+}
+
+#content{
+	width: 100%;
+	min-height: 517px;
+	padding-bottom: 150px;
+}
+
+.logo {
+	display: inline-block;
+	padding-top: 7px;
+}
+
+.owl-wrapper-outer {
+	position: absolute;
+}
+
+.owl-controls {
+	position: absolute;
+	bottom: 2%;
+	left: 50%;
+}
+
+.owl-theme .owl-controls .owl-page span{
+	background: #fff;
+}
+
+.owl-carousel-item-imgtitle{
+	display: none;
+}
+
+.owl-controls{
+    position: absolute;
+} 
+
+.owl-next{
+	position: absolute;
+	right: -475px;
+	top: -393px;
+	width: 41px;
+	height: 64px;
+	background:none !important;
+	background-image: url(img/right.png) !important;
+}
+
+.owl-prev{
+	position: absolute;
+	left: -590px;
+	top: -393px;
+	background:none !important;
+	background-image: url(img/left.png) !important;	
+	width: 41px;
+	height: 64px;
+
+}
+
+.navi{
+	position:absolute;
+	display: inline-block;
+	padding-left: 225px;
+	padding-right: 0;
+	margin-right: 0;
+}
+
+.menu li {
+
+	list-style-type: none;
+	display:inline-block;
+	margin: 14px;
+	padding-top: 19px;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+
+.menu li a:hover{
+	 text-decoration:none !important;
+	 color: #337ab7;
+}
+
+.header {
+	display: none;
+}
+
+.menu-item a{
+	color:#fff;
+	text-transform: uppercase;
+}
+
+.hot{
+	width: 100%;
+	min-height: 100%;
+	text-align: center;
+	position: relative;
+    overflow: hidden;
+    margin:20px auto;
+}
+
+h3{
+	text-transform: uppercase;
+	font-family: "OPEN-SANSBOLD", sans-serif !important;
+	font-weight: bold;
+	text-align: center;
+	font-size: 36px;
+	color: #3A80E8;
+	padding: 30px 0;
+}
+
+.hot3{
+	position: relative;
+	display: inline;
+	background-image: url(img/Sri-lanka.png);
+	width: 340px;
+	height: 390px;
+	margin-left: 70px !important;
+	margin-top: 40px !important;
+}
+
+.first_hot3 .second_hot3{
+	min-height: 100%;
+    height: 100%;
+    width:100%;
+    margin: 20px;
+}
+
+.hot_corner{
+	position: absolute;
+	background-image: url(img/hot.png);
+	width: 129px;
+	height: 129px;
+	top:-7px;
+	left:-7px;
+	padding-left: 50px;
+}
+
+.hot_country{
+	position: absolute;
+	text-transform:uppercase;
+	color:#fff;
+	font-size:30px;
+	font-weight:bold;
+	top:85px;
+	left:40px;
+}
+
+.hot_price{
+	position: absolute;
+	color:#F5F231;
+	font-size:30px;
+	font-weight:bold;
+	top:125px;
+	left:40px;
+}
+
+.hot_fly{
+	position: absolute;
+	color:#fff;
+	font-size:25px;
+	font-weight:bold;
+	top:175px;
+	left:40px;
+}
+
+.hot_date{
+	position: absolute;
+	color:#fff;
+	font-size:25px;
+	font-weight:bold;
+	top:210px;
+	left:40px;
+}
+
+.hot_stars{
+	position: absolute;
+	display: inline-block;
+	background-image: url(img/hot_5_stars.png);
+	top:310px;
+	left:40px;
+	width: 178px;
+	height: 29px;
+}
+
+.hot_info{
+	position: absolute;
+	display: inline-block;
+	background-image: url(img/hot_info.png);
+	top:310px;
+	left:270px;
+	width: 40px;
+	height: 40px;
+}
+
+.row-fluid{
+	padding:40px;
+}
+
+.up_button {
+	text-decoration: none; 
+	z-index: 99999;
+	background-color:rgba(255,255,255,0.7);
+} 
+
+.up_button:active {
+	 top:0;
+	 left:0;
+} 
+
+
+#scrollup {
+	position: fixed; 
+	display: block;
+	padding: 15px 10px 10px; 
+	border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	left: 10px; 
+	bottom: 10px; 
+	display: none; 
+	height: 80px;
+	width: 80px;
+	left: 91%;
+    margin: 0 0 40px -70px;
+}
+
+#scrollup img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    opacity: 0.7;
+}
+
+.callback{
+	position: fixed; 
+	display: block;
+	margin: 0 0 58px -10px; 
+	bottom: 10px; 
+	height: 80px;
+	width: 80px;
+	left: 92%;  
+}
+
+.callback img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    opacity: 0.6;
+}
+
+.callback img:hover{
+	opacity: 1;
+}
+
+.about{
+	min-height: 400px;
+}
+
+.about_us{
+	padding:0 40px 0 70px;
+}
+
+.about_us_info{
+	font-family: "SFCompactText-Medium", sans-serif !important;
+	text-align: left;
+	font-weight:600;
+	word-spacing: 5px;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+}
+
+.stat{
+	margin:-15px 0 0 -15px;
+}
+
+.statdescrib{
+	font-family: "SFCompactText-Heavy", sans-serif !important;
+	font-weight:900;
+	text-align:left;
+	font-size: 13px;
+	color: #000;
+	padding: 0 100px 0 0;
+}
+
+.numbers{
+	font-family: "BEBASNEUEBOOK" !important;
+	font-size: 88px !important;
+	text-align: center !important;
+	margin:20px 120px -20px 0;
+}
+
+.img{
+	position: relative;
+	padding-right: 110px;
+}
+
+
+#footer {				/* - - - - - - - - - - - - -  F O O T E R - - - - - - -  - - - - - */
+	background-image: url(img/footer.png);
+	opacity: 0.7;
+	width: 100%;
+}
+
+.info_social{
+	opacity: 0.7;
+	display:inline-block;
+}
+
+.info_social a:hover{
+	opacity: 1;
+}
+
+.row-fluid a {
+	color: white;
+}
+
+.row-fluid div{
+	margin-top:40px;
+}
+
+.redesign {
+	color: white;
+	margin-left:190px;
+}
+.redesign a:hover{
+	text-decoration:none;
+	font-style:italic;
+}
+
+.all-right{
+	color:#fff;
+	margin-left:340px;
+}
