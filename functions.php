@@ -10,6 +10,8 @@ function koleso_scripts() {
 
 add_action( 'wp_enqueue_scripts', 'koleso_scripts' );
 
+add_filter( 'pre_option_link_manager_enabled', '__return_true' ); // добавление ссылок в админку
+
 function register_my_menu() {
     register_nav_menu('header-menu',__( 'Header Menu' ));
 }
@@ -21,5 +23,5 @@ function js_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'js_scripts' );
 
-add_filter( 'pre_option_link_manager_enabled', '__return_true' ); // добавление ссылок в админку
+
 ?>
